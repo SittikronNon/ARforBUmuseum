@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.bu3dmusuem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.bu3dmusuem.ui.gallery.GalleryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_perma_exhi"
+        android:name="com.example.bu3dmusuem.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_perma_exhi"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_location"
+        android:name="com.example.bu3dmusuem.Fragment.LocationFragment"
+        android:label="Location"
+        tools:layout="@layout/fragment_location" />
+    <fragment
+        android:id="@+id/nav_opening"
+        android:name="com.example.bu3dmusuem.Fragment.OpeningHoursFragment"
+        android:label="Opening Hours"
+        tools:layout="@layout/fragment_opening_hours" />
+    <fragment
+        android:id="@+id/nav_gettinghere"
+        android:name="com.example.bu3dmusuem.Fragment.GettingHereFragment"
+        android:label="Getting Here"
+        tools:layout="@layout/fragment_getting_here" />
+    <fragment
+        android:id="@+id/nav_visit"
+        android:name="com.example.bu3dmusuem.Fragment.VisitorRegulationFragment"
+        android:label="Visitor Regulation"
+        tools:layout="@layout/fragment_visitor_regulation" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.bu3dmusuem.Fragment.ContactUsFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_us" />
+</navigation>
