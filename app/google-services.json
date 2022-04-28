@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "879866936711",
+    "firebase_url": "https://bu3dmodel.firebaseio.com",
+    "project_id": "bu3dmodel",
+    "storage_bucket": "bu3dmodel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:879866936711:android:a83d505b26d734f1c22722",
+        "android_client_info": {
+          "package_name": "com.example.bu3dmusuem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "879866936711-90rqbqdcd6g8ntd09lo7rj2tecs9nu03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf_TN3ieEgIukkty_G3lteX3mdacSFz4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "879866936711-90rqbqdcd6g8ntd09lo7rj2tecs9nu03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

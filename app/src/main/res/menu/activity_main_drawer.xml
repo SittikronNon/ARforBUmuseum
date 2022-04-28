@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_history" />
+        <item
+            android:id="@+id/nav_perma_exhi"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_perma_exhi" />
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/location"
+            android:title="@string/menu_location" />
+
+        <item
+            android:id="@+id/nav_opening"
+            android:icon="@drawable/home_plus"
+            android:title="@string/menu_opening_hours"/>
+
+        <item
+            android:id="@+id/nav_gettinghere"
+            android:icon="@drawable/directions_bus_24px"
+            android:title="@string/menu_getting"/>
+
+        <item
+            android:id="@+id/nav_visit"
+            android:icon="@drawable/outlined"
+            android:title="@string/menu_visitor"/>
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/phone"
+            android:title="@string/menu_contact"/>
+
+
+    </group>
+
+</menu>
